@@ -1,7 +1,7 @@
 pip3 --version
 pip3 install linode-cli
 linode-cli --help
-linode-cli configure
+linode-cli configure --token [here the Personal Access Token]
 linode-cli lke clusters-list
 
 linode-cli lke cluster-create \
